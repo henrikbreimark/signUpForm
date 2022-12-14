@@ -1,3 +1,32 @@
 body {
     background-color: blue;
+    display: flex; 
+    margin:0;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+body div {
+    width: 40%;
+    height: 100vh;
+    position: relative;
+}
+
+body section {
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+}
+
+body div header {
+    position:absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.2);
+ 
+}
+
+h1 {
+    color: #fff;
 }
